@@ -1,0 +1,80 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background:url(background2.jpeg) no-repeat;
+    background-size:cover;
+}
+.loginbox{
+    width: 320px;
+    height: 400px;
+    position: absolute;
+    padding:70px 30px;
+    box-sizing: border-box;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: rgb(2, 37, 44); 
+    
+}
+.avatar{
+    width: 100px; 
+    height: 100px;
+    border-radius:50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size:22px;
+}
+.loginbox p{
+    margin:0;
+    padding:0 ;
+    font-weight:bold;
+}
+.loginbox input{
+    margin-bottom: 15px; 
+}
+.loginbox input[type="password"],input[type="text"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height:40px;
+    color: #fff;
+    font-size:16px;
+    width: 90%;
+}
+.loginbox input[type="submit"]
+{
+    border:none;
+    background: #2288d6;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size:18px;
+    border-radius:20px;
+    width: 100%;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:#eaeaf1;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: darkcyan;
+}
+.loginbox a:hover{
+    color: #fff;   
+}
